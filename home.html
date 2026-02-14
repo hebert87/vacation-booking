@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vacation Booking Form</title>
+    <link rel="icon" href="../public/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../public/styles/styles.css">
+    <script src="../public/js/vacation.js" defer></script>
+</head>
+<body>
+
+<form id="Appointment" action="thanks.html">   
+    <div class="banner">
+        <img src="https://bit.ly/305-vacation" alt="Vacation Banner">
+        <h1>Book Your Dream Vacation</h1>
+    </div>
+
+    <fieldset>
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+            <option value="">-- Choose a Destination --</option>
+            <option value="Bali">Bali, Indonesia</option>
+            <option value="Paris">Paris, France</option>
+            <option value="Tokyo">Tokyo, Japan</option>
+            <option value="Maldives">Maldives</option>
+            <option value="New York">New York City, USA</option>
+        </select>
+        <span class="error" id="err-destination">Please select a destination.</span>
+
+
+        <div class="grid-two">
+            <div>
+                <label for="date">Departure Date:</label>
+                <input type="date" id="date" name="date">
+                <span class="error" id="err-travelers">Number of travelers must be greater than 0.</span>
+            </div>
+        
+            <div>
+                <label for="travelers">Number of Travelers:</label>
+                <input type="number" id="travelers" name="travelers" min="1" value="1">
+            </div>
+        </div>
+
+        <button type="submit" id="book-btn">Find My Vacation</button>
+    </fieldset>
+</form>
+
+
+</body>
+</html>
