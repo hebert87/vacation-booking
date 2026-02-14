@@ -33,7 +33,11 @@ app.post("/submit-order", (req, res) => {
     };
 
 bookings.push(booking);
-
+res.redirect("/thanks");
+});
+//Thank rout
+app.get("/thanks", (req, res) => {
+    res.sendFile(path.join(__dirname, "views", "thanks.html"));
 });
 
 // Admin route to see all bookings

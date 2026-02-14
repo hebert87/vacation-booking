@@ -11,6 +11,7 @@
     --error-color: #ff3b3b;
 
     --border-radius: 15px;
+    --thankyou-bg: #060af3 ;
 }
 
 
@@ -134,6 +135,18 @@ footer a {
     color: var(--error-color);
     font-size: 0.9rem;
     margin-top: 5px;
+}
+.thankyou-container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: var(--thankyou-bg);
+text-align: center;
+}
+.thankyou-container h1 {
+color: white;
+font-size: 2rem;
 }
 
 @media (max-width: 480px) {
