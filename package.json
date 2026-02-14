@@ -1,0 +1,23 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebert87/vacation-booking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hebert87/vacation-booking/issues"
+  },
+  "homepage": "https://github.com/hebert87/vacation-booking#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
